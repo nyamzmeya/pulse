@@ -1,0 +1,41 @@
+.pos {
+    min-height: 473px;
+    background: #F6F6F6;
+    padding-top: 70px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 65px;
+    }
+    &__item {
+        width: 277px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        &_heart {
+            animation: heartbeat 1.5s ease infinite;
+        }
+    }
+    &__text {
+        margin-top: 30px;
+        text-align: center;
+        font-weight: 300;
+        font-size: 14px;
+        color: #0D0D0D;
+        span {
+            display: block;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 29px;
+            color: #0D0D0D;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #ff0000;
+            text-decoration: underline;
+        }
+    }
+
+}

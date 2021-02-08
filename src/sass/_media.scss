@@ -1,0 +1,529 @@
+@media (max-width: 1200px) {
+  .promo {
+    background: url("../../img/bg.png") left (center/cover) no-repeat;
+  }
+  .container {
+    width: 750px;
+  }
+
+  .pos {
+    padding-top: 60px;
+    &__item {
+      width: 230px;
+    }
+    &__wrapper {
+      margin-top: 45px;
+    }
+  }
+  .carousel {
+    padding: 61px 0;
+    &__inner {
+      width: 70%;
+      img {
+        width: 100%;
+      }
+    }
+    
+  }
+
+  .catalog {
+    padding-bottom: 50px;
+    &__tabs{
+      margin-top: 50px;
+    }
+    &__content {
+      justify-content: space-around;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 650px;
+  }
+  .header {
+    &__logo {
+      width: 200px;
+    }
+    &__official {
+      span {
+        font-size: 16px;
+      }
+    }
+    &__phone {
+      font-size: 16px;
+    }
+  }
+  .promo {
+    &__wrapper {
+      margin-top: 71px;
+    }
+    &__header {
+      font-size: 30px;
+    }
+    &__subheader {
+      font-size: 20px;
+    }
+  }
+
+  .pos {
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__item {
+      width: 270px;
+      margin-bottom: 50px;
+      &:nth-child(3) {
+        margin-bottom: 60px;
+      }
+    }
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 44px;
+    &__left {
+        text-align: center;
+    }
+  }
+
+  .consultation {
+      padding-top: 70px;
+      padding-bottom: 62px;
+      min-height: 600px;
+      &__descr {
+          text-align: center;
+      }
+  }
+
+  .feed-form {
+    align-items: center;
+    width: 100%;
+  }
+  .button {
+    &_submit{
+        width: 300px;
+    }
+  }
+
+  .carousel {
+    .slick-prev, .slick-next  {
+      img {
+          width: 21px;
+          height: 40px;
+      }
+  }
+  }
+
+  .catalog {
+    padding-bottom: 30px;
+    &__tabs {
+      margin-top: 30px;
+    }
+    &__tab {
+      width: 180px;
+      height: 40px;
+      font-size: 16px;
+      line-height: 38px;
+    }
+
+    &__content {
+      margin-top: 30px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+  }
+  .reviews{
+    margin-bottom: 50px;
+    &__item {
+      margin-top: 20px;
+      img {
+        width: 140px;
+        height: 140px;
+      }
+      &__text {
+        margin-left: 32px;
+        padding-right: 30px;
+    }
+    }
+  }
+
+  .footer {
+    height: 530px;
+    &__info {
+      top: 380px;
+      width: 400px;
+      height: 150px;
+      padding: 20px 38px 20px 38px;
+    }
+    &__add{
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    &__phone{
+      font-size: 18px;
+    }
+    &__social{
+      margin-top: 10px;
+      width: 160px;
+      &_item{
+        width: 40px;
+        height: 40px;
+        img{
+          height: 22px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+
+  .promo {
+    padding-bottom: 50px;
+    &__wrapper {
+      align-items: center;
+    }
+
+    &__icons {
+      width: 100%;
+    }
+  }
+
+  .header {
+    &__official {
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .consultation {
+      min-height: 550px;
+    &__descr {
+      line-height: 20px;
+      font-size: 16px;
+    }
+  }
+
+  .carousel {
+    padding: 41px 0;
+    .slick-prev, .slick-next  {
+      img {
+          width: 14px;
+          height: 30px;
+      }
+  }
+  }
+
+  .catalog {
+    padding-bottom: 20px;
+    &__tabs {
+      margin-top: 20px;
+    }
+    &__tab {
+      width: 160px;
+      height: 30px;
+      font-size: 12px;
+      line-height: 28px;
+    }
+
+    &__content {
+      margin-top: 20px;
+    }
+
+    &-item {
+      height: 370px;
+      padding: 10px 20px 10px 20px;
+      &__back {
+        bottom: -60px;
+      }
+      &__subtitle {
+        margin-top: 10px;
+      }
+      &__descr {
+        margin-top: 10px;
+      }
+      &__link {
+        margin-top: 10px;
+      }
+      &__price {
+        font-size: 16px;
+      }
+      &__img {
+        height: 160px;
+      }
+
+      &__list {
+        li {
+          line-height: 14px;
+          margin-bottom: 18px;
+      }
+      } 
+    }
+
+    .button_mini {
+      width: 100px;
+      height: 40px;
+      font-size: 12px;
+  }
+}
+.reviews{
+  margin-bottom: 30px;
+  &__item {
+    margin-top: 20px;
+    img {
+      width: 120px;
+      height: 120px;
+    }
+    &__text {
+      margin-left: 22px;
+      padding-right: 0;
+      &_words {
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+  }
+}
+
+.footer {
+  height: 400px;
+  &__info {
+    top: 270px;
+    width: 100%;
+    padding: 10px 18px 10px 18px;
+    height: 130px;
+  }
+  &__add{
+    font-size: 14px;
+  }
+  &__phone{
+    font-size: 14px;
+  }
+}
+
+.pageup {
+  bottom: 140px;
+}
+
+}
+
+@media (max-width: 575px) {
+  .container {
+    width: 250px;
+  }
+
+  .header {
+    flex-direction: column;
+    &__official {
+      display: none;
+    }
+
+    &__logo {
+      margin-bottom: 20px;
+    }
+
+    &__contacts {
+      a {
+        display: none;
+      }
+    }
+  }
+
+  .promo {
+    &__wrapper {
+      margin-top: 30px;
+    }
+    &__header {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    &__subheader {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    &__icons {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    &__icon {
+      margin-bottom: 20px;
+      font-size: 12px;
+    }
+
+    &__link {
+      font-size: 13px;
+    }
+  }
+
+  .button_main {
+    width: 200px;
+    margin-top: 10px;
+    line-height: 16px;
+    font-size: 13px;
+  }
+
+  .pos {
+    padding-top: 30px;
+    &__wrapper {
+      margin-top: 20px;
+    }
+    &__item {
+      margin-bottom: 30px;
+    }
+    &__text {
+      font-size: 12px;
+      margin-top: 20px;
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .title {
+    font-size: 16px;
+    &__left{
+        line-height: 20px;
+    }
+  }
+  .consultation {
+      &__descr {
+          font-size: 12px;
+      }
+  }
+  .feed-form {
+      input {
+          width: 100%;
+          font-size: 13px;
+          height: 50px;
+      }
+  }
+  .button {
+    &_submit{
+        width: 100%;
+        font-size: 13px;
+        height: 50px;
+    }
+  }
+
+  .carousel {
+    padding: 21px 0;
+  }
+
+  .catalog {
+    &__tabs {
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__tab {
+      margin-bottom: 10px;
+    }
+    &-item {
+      width: 200px;
+      height:320px;
+      padding: 10px 10px 10px 10px;
+      
+      &__list {
+        height: 230px;;
+      }
+      &__price {
+        font-size: 14px;
+        &__old {
+          font-size: 12px;
+        }
+      }
+      &__img {
+        height: 100px;
+      }
+      &__subtitle {
+        font-size: 14px;
+    }
+      &__descr {
+        width: 150px;
+        margin: 10px auto;
+        font-size: 12px;
+      }
+
+      &__list {
+        padding-left: 10px;
+        li {
+          font-size: 12px;
+          margin-bottom: 10px;
+        }
+      }
+      &__back {
+        bottom: -17px;
+      }
+    
+    .button_mini {
+      width: 70px;
+    }
+    }
+} 
+
+  .reviews {
+    &__item {
+      img {
+        display: none;
+      }
+      &__text {
+        margin-left: 0;
+        text-align: center;
+      }
+    }
+  }
+
+  .modal {
+    width: 300px;
+    min-height: 300px;
+    padding: 20px 20px 20px 20px;
+    &__close {
+        top: 360px;
+        right: 130px;
+        font-size: 40px;
+    }
+
+    &__subtitle {
+        font-weight: 700;
+        font-size: 16px;
+        color: #0D0D0D;
+        text-align: center;
+    }
+    &__descr {
+        font-size: 12px;
+        text-align: center;
+        color: #0D0D0D;
+        font-weight: 500;
+    }
+    &_mini {
+        min-height: 140px;
+    }
+}
+.feed-form_mt25 {
+  margin-top: 15px;
+}
+
+.pageup {
+  right: 20px;
+}
+
+    
+}
+
